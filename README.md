@@ -19,3 +19,12 @@ Official Repo of project
 6. sudo docker push madhupiot/python-todoapp-docker
 7. sudo docker run -d -p 5000:5000 madhupiot/python-todoapp-docker
 8. sudo docker ps
+
+# Postman Requests
+1. http://aws-public-ip:5000/
+2. http://aws-public-ip:5000/items/all
+3. http://aws-pubic-ip:5000/item/new (key: item, value: project abstract)
+4. http://aws-public-ip:5000/item/status (key: item, value: project abstract)
+5. http://aws-public-ip:5000/item/update (key: item, value: project abstract, key: status, value: in progress)
+6. http://aws-public-ip:5000/item/remove (key: item, value: project abstract)
+
